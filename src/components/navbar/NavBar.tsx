@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { HamburgerButton } from './HamburgerButton'
 import { Logo } from './Logo'
 import { NavMenu } from './NavMenu'
+import Phone from './Phone'
 
 export const Navbar = () => {
   const [active, setActive] = useState(false)
@@ -13,14 +14,9 @@ export const Navbar = () => {
   }
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-white p-3 md:px-10 lg:px-20">
+      <nav className="flex items-center flex-wrap bg-white p-8 md:px-10 lg:px-30 2xl:px-80">
         <Logo />
-        <a
-          className="text-xs font-bold uppercase tracking-wide hover:text-pink-400"
-          href="tel:+13912200303"
-        >
-          +7 (391) 220-03-03
-        </a>
+        <Phone />
         <HamburgerButton handleClick={handleClick} />
         <NavMenu active={active} />
       </nav>

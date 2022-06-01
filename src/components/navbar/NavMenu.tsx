@@ -10,8 +10,6 @@ export const NavMenu = (props: any) => {
     >
       <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
         <NavBarMenuItem href={'/services'} tag={'Услуги'} />
-        <DropDownItem href={'/services'} tag={'Услуги'} />
-
         <NavBarMenuItem href={'/'} tag={'Новости'} />
         <NavBarMenuItem href={'/'} tag={'Врачи'} />
         <NavBarMenuItem href={'/'} tag={'Цены'} />

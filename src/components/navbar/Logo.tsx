@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const Logo = () => {
   return (
-    <>
+    <div className="flex-none">
       <Link href="/">
         <a className="inline-flex items-center p-2 mr-4 ">
           <div className="flex flex-col items-center">
@@ -16,6 +16,6 @@ export const Logo = () => {
           </div>
         </a>
       </Link>
-    </>
+    </div>
   )
 }

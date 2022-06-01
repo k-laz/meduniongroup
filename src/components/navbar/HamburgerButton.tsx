@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 interface ButtonProp {
   handleClick: () => void
 }
@@ -7,7 +5,7 @@ interface ButtonProp {
 export const HamburgerButton = ({ handleClick }: ButtonProp) => {
   return (
     <button
-      className=" inline-flex p-3 rounded lg:hidden ml-auto outline-none"
+      className="inline-flex p-3 rounded lg:hidden ml-auto outline-none"
       onClick={handleClick}
     >
       <svg

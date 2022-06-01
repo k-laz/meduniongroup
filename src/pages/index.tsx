@@ -1,15 +1,18 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Navbar } from '../components/layout/NavBar'
+import { Navbar } from '../components/navbar/NavBar'
 
 const Home: NextPage = () => {
   return (
-    <div className="text-grey-200 bg-slate-100">
+    <div className="text-grey-200 bg-slate-100 text-lg">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <a className="flex flex-row justify-center w-full bg-slate-900 text-sm">
+        <span className="p-2 bg-slate-700">Записаться на прием</span>
+      </a>
       <Navbar />
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center ">
