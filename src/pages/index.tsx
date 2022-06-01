@@ -9,7 +9,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="/dist/output.css" rel="stylesheet"></link>
       </Head>
       <Navbar />
 

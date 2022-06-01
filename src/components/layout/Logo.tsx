@@ -16,9 +16,6 @@ export const Logo = () => {
           </div>
         </a>
       </Link>
-      <span className="text-xs font-bold uppercase tracking-wide hover:text-pink-400">
-        +7 (391) 220-03-03
-      </span>
     </>
   )
 }
